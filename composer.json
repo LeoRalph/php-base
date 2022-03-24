@@ -1,4 +1,13 @@
 {
+    "name": "leoralph/base",
+    "description": "Base project using my mvc core",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leonardo Ralph",
+            "email": "theleoralph@gmail.com"
+        }
+    ],
     "require": {
         "leoralph/core": "^0.0.1"
     }
