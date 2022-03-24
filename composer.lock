@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f543c3cf21c0fa3f71965c96637f5f0e",
+    "content-hash": "7e6a72b567dc8c3460f029bfdf5a3ca7",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1008,6 +1008,47 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2022-03-13T14:56:16+00:00"
+        },
+        {
+            "name": "leoralph/core",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LeoRalph/php-core.git",
+                "reference": "83668f0322011b99be8bb17a6f1e7aac46468cc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LeoRalph/php-core/zipball/83668f0322011b99be8bb17a6f1e7aac46468cc7",
+                "reference": "83668f0322011b99be8bb17a6f1e7aac46468cc7",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.4",
+                "illuminate/database": "^9.5",
+                "symfony/mailer": "^6.0",
+                "twig/twig": "^3.3",
+                "vlucas/phpdotenv": "^5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LeoRalph\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Leonardo Ralph",
+                    "email": "theleoralph@gmail.com"
+                }
+            ],
+            "description": "Core for my own php mvc framework",
+            "support": {
+                "issues": "https://github.com/LeoRalph/php-core/issues",
+                "source": "https://github.com/LeoRalph/php-core/tree/v0.0.1"
+            },
+            "time": "2022-03-24T01:54:08+00:00"
         },
         {
             "name": "nesbot/carbon",

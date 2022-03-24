@@ -1,18 +1,5 @@
 {
-    "name": "leoralph/base",
-    "description": "Base framework for my projects",
-    "type": "project",
     "require": {
-        "illuminate/database": "^9.5",
-        "vlucas/phpdotenv": "^5.4",
-        "guzzlehttp/guzzle": "^7.4",
-        "symfony/mailer": "^6.0",
-        "twig/twig": "^3.3"
-    },
-    "authors": [
-        {
-            "name": "Leonardo Ralph",
-            "email": "theleoralph@gmail.com"
-        }
-    ]
+        "leoralph/core": "^0.0.1"
+    }
 }
